@@ -37,11 +37,11 @@ public class UserSettings {
         //--USER__darkenImages --USER__invertImages
     }
 
-    internal enum Switches: String {
+    public enum Switches: String {
         case publisherFont = "--USER__fontOverride"
     }
 
-    internal init() {
+    public init() {
         let userDefaults = UserDefaults.standard
         var value: String
 
